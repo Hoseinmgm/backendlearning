@@ -5,3 +5,4 @@
 -> ./veny_name/Scripts/activate
 -> pip install django
 -> django-admin startproject main .
+127.0.0.1 (Or localhost)
