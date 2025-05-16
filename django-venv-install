@@ -1,9 +1,8 @@
 => ... (in Project Directory)
-
 -> python -m pip install virtualenv
-
 -> python -m venv venv_name
 
 -> Set-ExecutionPolicy Unrestricted -Scope Process
 -> ./veny_name/Scripts/activate
 -> pip install django
+-> django-admin startproject main .
