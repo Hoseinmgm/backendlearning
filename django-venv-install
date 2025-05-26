@@ -4,7 +4,10 @@
 -> Set-ExecutionPolicy Unrestricted -Scope Process
 -> ./veny_name/Scripts/activate
 -> pip install django
--> django-admin startproject main .
+make prject: -> django-admin startproject main .
 127.0.0.1 (Or localhost)
 port: mysql=3306 Django=8001 Default=8000
 Django architecture=MVT(Model View Template) model:database template:html
+
+--> ./myenv/Scripts/activate
+--> run: py manage.py runserver
