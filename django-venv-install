@@ -18,11 +18,10 @@ Set-ExecutionPolicy Unrestricted -Scope Process
 ./veny_name/Scripts/activate
 
 
-
 Django:
 pip install django
 
-make prject: 
+make Django prject: 
 django-admin startproject main .
 
 
