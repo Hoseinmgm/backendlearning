@@ -1,0 +1,17 @@
+structure example:
+from django.db import models
+
+class Article(models.Model):
+  title = models.CharField(max_length-300)
+  description = models. TextField()
+  rate = models. IntegerField()  #normal number
+  created_at - models.DateTimeField(auto_now_add-True)  #create flied
+  updated_at - models.DateTimeField(auto_now-True)  #update field
+
+
+in OOP(Object-Oriented Programming):
+  table:model class
+  objects: every data-row (or every record)
+    
+create:
+update:
