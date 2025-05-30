@@ -9,9 +9,16 @@ class Article(models.Model):
   updated_at - models.DateTimeField(auto_now-True)  #update field
 
 
+
+CRUD (Create, Read, Update, Delete)
 in OOP(Object-Oriented Programming):
   table:model class
   objects: every data-row (or every record)
-    
-create:
-update:
+
+
+apply objects in data base:
+
+
+
+
+
