@@ -11,14 +11,20 @@ class Article(models.Model):
 
 
 CRUD (Create, Read, Update, Delete)
-in OOP(Object-Oriented Programming):
+OOP(Object-Oriented Programming):
   table:model class
   objects: every data-row (or every record)
 
-
-apply objects in data base:
-
+  apply objects in data base:
 
 
+
+in django we can run with:
+  .object= model-manager
+  article.object.create()
+
+
+
+Django Query sets:
 
 
