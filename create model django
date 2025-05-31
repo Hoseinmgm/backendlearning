@@ -5,9 +5,12 @@ class Article(models.Model):
   title = models.CharField(max_length-300)
   description = models. TextField()
   rate = models. IntegerField()  #normal number
-  created_at - models.DateTimeField(auto_now_add-True)  #create flied
-  updated_at - models.DateTimeField(auto_now-True)  #update field
+  created_at - models.DateTimeField(auto_now_add=True)  #create flied
+  updated_at - models.DateTimeField(auto_now=True)  #update field
 
+create flieds:
+  models.BooleanField()
+  models.DateTimeField()
 
 
 CRUD (Create, Read, Update, Delete)
@@ -21,10 +24,25 @@ OOP(Object-Oriented Programming):
 
 in django we can run with:
   .object= model-manager
-  article.object.create()
+  article.object.create(fields=value)
+ 
+
 
 
 
 Django Query sets:
+
+
+
+ H:\qrcode> py manage.py shell
+ from Users.models import Member
+Member.objects.create(title="ali")
+Member.objects.all()
+
+>>> ali = Member.objects.filter(title="ali")
+>>> ali.objects.update(title="hosein")
+
+object=Member(title="matin")
+object.save()
 
 
