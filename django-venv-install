@@ -20,7 +20,7 @@ Set-ExecutionPolicy Unrestricted -Scope Process
 
 Django:
 pip install django
-
+ pip install mysqlclient
 make Django prject: 
 django-admin startproject main .
 
